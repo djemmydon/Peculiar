@@ -1,0 +1,55 @@
+/*
+
+.sidebar .nav_item{
+    padding-left: 20px;
+}
+
+.sidebar .logo{
+    
+    border-bottom: 1px solid #cbd3d9;
+    position: relative;
+}
+
+.sidebar .logo h1{
+    font-size:30px;
+
+    padding: 30px;
+}
+.sidebar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+   padding: 10px;
+
+}
+
+
+.sidebar ul li{
+     padding: 15px 0px 25px 30px;
+     font-size: 15px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.sidebar .side_footer{
+    margin-top: 100px;
+    border-top: 1px solid #cbd3d9;
+    display: flex;
+        padding: 20px;
+}
+
+
+.sidebar .side_footer a{
+
+text-align: center;
+padding: 40px 10px ;
+color: black;
+}
+
+.sidebar .side_footer img{
+    width: 30%;
+  
+    border-radius: 20%;
+}
+ */
