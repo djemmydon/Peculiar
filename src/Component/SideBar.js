@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { Link } from 'react-router-dom'
+
 import '../Component/sidebar.css'
 import WhatIDo from './WhatIDo';
 import Image from './my_image2.jpg'
@@ -8,6 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Portfolio from './Portfolio';
 import Contact from './Contact';
+import { Link, animateScroll as scroll } from "react-scroll";
 // ..
 AOS.init();
 
@@ -104,7 +105,7 @@ const nav = [
                                 <li key={id}  onClick={closeMenu}
                                 
                                 >
-                                   <a href={item.link} data-scroll>{item.title}</a>
+                                   <Link to={item.link} data-scroll>{item.title}</Link>
                                      
                                  
                                    
@@ -214,7 +215,10 @@ const nav = [
             </div>
                 </div>
         
+                                
                                 <WhatIDo />
+                                 <Portfolio />
+                                 <Contact />
                                 
         </div>
     )

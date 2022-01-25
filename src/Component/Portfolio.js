@@ -1,9 +1,8 @@
 import React from 'react'
 import  './portfolio.css'
-import { Swiper, SwiperSlide } from "swiper/react";
 
 import Carousel from 'react-elastic-carousel'
-import AOS from 'aos';
+
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import './what-i-do.css'
 

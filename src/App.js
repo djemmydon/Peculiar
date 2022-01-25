@@ -1,11 +1,7 @@
 
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import SideBar from './Component/SideBar';
-import Main from './Component/Main';
-import Music from './www.mp3'
-import Portfolio from './Component/Portfolio';
-import Contact from './Component/Contact';
 
 
 function App() {
@@ -14,8 +10,7 @@ function App() {
    
    <div className='wrapper'>
         <SideBar />
-    <Portfolio />
-    <Contact />
+   
 
    </div>
   
