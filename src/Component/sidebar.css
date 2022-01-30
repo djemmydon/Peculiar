@@ -152,7 +152,7 @@ position: relative;
     color: black;
 transition: 0.4s ease-out;
     padding: 0.5rem 2rem;
-
+  cursor: pointer;
 
  }
 
@@ -237,7 +237,7 @@ color: white;
 
 .main{
   padding-top: 4rem;
-  min-height: 50vh;
+  min-height: 70vh;
 }
   
 .columnn{
@@ -342,7 +342,7 @@ font-size: 20px;
 
 
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:800px) {
     
 .main .main_cont .text p  {
 width:20rem;
@@ -376,7 +376,7 @@ display: none;
 
 .main{
 
-    height: 50vh;
+    max-height: 40vh;
  
 }
 
@@ -410,4 +410,5 @@ letter-spacing: 0.2em;
 
 
 }
+
 

@@ -18,7 +18,7 @@ const portfolio = [
     {
         id:2,
         img: './img/PROJECT3.jpg',
-        link: 'https://confident-visvesvaraya-2f980d.netlify.app/index.html',
+        link: 'https://affectionate-mcclintock-7d9b3c.netlify.app/',
         title: 'Netflix',
         about:'Veniam, dolorum. Soluta maxime distinctio nobis facere, voluptatem quam rem quia consectetur!',
 
@@ -27,7 +27,7 @@ const portfolio = [
         id:3,
         img: './img/PROJECT4.jpg',
         link: 'https://confident-visvesvaraya-2f980d.netlify.app/index.html',
-        title: 'Academia',
+        title: 'FIRST PORTFOLIO',
         about:'Veniam, dolorum. Soluta maxime distinctio nobis facere, voluptatem quam rem quia consectetur!',
 
     },
@@ -62,7 +62,7 @@ function Portfolio() {
                      data-aos-duration="1000"
                    data-aos-delay="300"
                                     
-                  >WHO AM I ___</h2>
+                  >PORTFOLIO ___</h2>
                 
 
         

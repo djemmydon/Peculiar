@@ -1,12 +1,12 @@
 
-import { BrowserRouter } from 'react-router-dom';
+
 import './App.css';
 import SideBar from './Component/SideBar';
 
 
 function App() {
   return (
-    <BrowserRouter>
+
    
    <div className='wrapper'>
         <SideBar />
@@ -14,7 +14,7 @@ function App() {
 
    </div>
   
-      </BrowserRouter>
+
     
 
   );

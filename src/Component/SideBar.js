@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, Component} from 'react'
 
 import '../Component/sidebar.css'
 import WhatIDo from './WhatIDo';
@@ -8,7 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Portfolio from './Portfolio';
 import Contact from './Contact';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 // ..
 AOS.init();
 
@@ -16,32 +16,32 @@ const nav = [
     {
         id:1,
         title: 'Home',
-        link: '#wrapper'
+        link: 'wrapper'
     },
     {
         id: 2,
 
         title: 'About ',
-        link: '#about'
+        link: 'about'
     },
     {
         id: 3,
 
         title: 'Services',
-        link: '#what_i_do'
+        link: 'what_i_do'
     },
     {
         id: 4,
 
         title: 'Portfilio',
-        link: '#portfolio'
+        link: 'portfolio'
     },
 
     {
         id: 5,
 
         title: 'Contact',
-        link: '#Contact'
+        link: 'Contact'
     },
 ];
 
@@ -102,10 +102,10 @@ const nav = [
 
                   
                             {nav.map((item, id) => (
-                                <li key={id}  onClick={closeMenu}
+                                <li key={id} 
                                 
                                 >
-                                   <Link to={item.link} data-scroll>{item.title}</Link>
+                                   <Link  onClick={closeMenu} activeClass="active" to={item.link} smooth={true}>{item.title}</Link>
                                      
                                  
                                    
