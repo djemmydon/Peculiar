@@ -158,7 +158,7 @@ const nav = [
                                        data-aos-once="false"
                                     data-aos-delay="900"
                                     >
-                                        <a href=""><button>Hire Me</button> </a>
+                                        <a href="https://github.com/djemmydon"><button>Hire Me</button> </a>
                                     </div>
 
                                 </div>

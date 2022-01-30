@@ -1,6 +1,6 @@
 import React from 'react'
 
-import AOS from 'aos';
+
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import './what-i-do.css'
 
@@ -85,7 +85,7 @@ function WhatIDo() {
                         
                 <h1>{img.title}</h1>
                 <p>{img.content}</p>
-                <img src={img.icon} alt="Image what I do" />
+                <img src={img.icon} alt="" />
             </div>
       </div>
       ))}   
