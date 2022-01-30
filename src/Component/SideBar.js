@@ -1,4 +1,4 @@
-import React, {useState, useEffect, Component} from 'react'
+import React, {useState, useEffect} from 'react'
 
 import '../Component/sidebar.css'
 import WhatIDo from './WhatIDo';
