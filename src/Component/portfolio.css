@@ -11,11 +11,12 @@
   overflow: hidden;
   transition: 0.2s ease;
   -webkit-filter: grayscale(1);
+  object-fit: cover;
 filter: grayscale(1);
 }
 .card{
   overflow: hidden;
-  border: none;
+ width: 300px;
 
 }
 
@@ -55,6 +56,10 @@ border-radius: 10px 0  20px 0;
 
 }
 
+.buttton button:hover{
+  color: white;
+  background-color: black;
+}
 .portfolio .rec.rec-arrow:hover {
 background-color: black;
     
@@ -83,4 +88,11 @@ filter: grayscale(1);
 .body_body p {
 display: none;
 }
+
+
+.portfolio .rec.rec-arrow{
+display: none;
+    
+}
+
 }

@@ -42,9 +42,10 @@ const portfolio = [
 ]
 
 const breakPoints = [
-{ width: 1, itemsToShow: 1 },
+{ width: 1, itemsToShow: 2 },
         { width: 550, itemsToShow: 1, itemsToScroll: 2, pagination: false },
-        { width: 850, itemsToShow: 3 },
+        { width: 850, itemsToShow: 2 },
+        { width: 700, itemsToShow: 2 },
         { width: 1100, itemsToShow: 2 },
         { width: 1150, itemsToShow: 3, itemsToScroll: 2 },
         { width: 1450, itemsToShow: 5 },
