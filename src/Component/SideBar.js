@@ -158,7 +158,7 @@ const nav = [
                                        data-aos-once="false"
                                     data-aos-delay="900"
                                     >
-                                        <a href="https://github.com/djemmydon"><button>Hire Me</button> </a>
+                                        <a href="https://github.com/djemmydon"><button className='my-btn'>Hire Me</button> </a>
                                     </div>
 
                                 </div>
@@ -199,7 +199,7 @@ const nav = [
 
                       
                         <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure beatae iste possimus officia expedita provident? Quasi, nemo pariatur nesciunt molestias neque atque labore, ab delectus, explicabo vel totam velit hic!</p>
-                        <button className='btn'>More About Me</button>
+                        <button className='about_btn'>More About Me</button>
 
                     </div>
                     <div className="col-md-6 images_side"
